@@ -1,0 +1,11 @@
+.mynav {
+    background-color:rgb(31, 119, 219);
+    text-align:right;
+    font-size: 30px;
+    text-emphasis-color: red;
+}
+
+body {
+    background-color:grey;
+}
+
