@@ -2,18 +2,19 @@ nav {
     text-align: right;
     font-size: 30px;
     margin-right: 30px;
+    color: white;
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1547103106-9a0e718bb2d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NDd8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60");
-
+    background-image: url("https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU5fHxhYnN0cmFjdCUyMGNvbG9yc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); 
     background-size: 100% 50%;
     background-repeat:no-repeat;
 }
 
 .home-class,
 .contact-class,
-.project-class {
+.project-class,
+.experience-class {
     
     line-height: 200px;
     font-size: 25px;
@@ -22,9 +23,7 @@ body {
 }
 
 a {
-    text-decoration: none;
-    
-    
+    text-decoration: none;  
 }
 
 img {
@@ -35,5 +34,7 @@ img {
 }
 
 footer{
+    position:relative;
+    bottom:0;
     text-align: center;
 }
