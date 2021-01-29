@@ -10,7 +10,7 @@ nav {
 }
 
 header {
-    background-image: url("https://images.unsplash.com/photo-1542708993627-b6e5bbae43c4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTV8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60"); 
+    background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fGRhcmslMjBiYWNrZ3JvdW5kc3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60"); 
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -33,12 +33,13 @@ header {
 
     font-size: 20px;
     padding-left: 25px;
+    color:rgb(77, 80, 83);
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
-    color: rgb(112, 161, 235);
+    color: rgb(77, 80, 83);
 }
 
 a {
