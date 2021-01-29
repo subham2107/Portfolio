@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 nav {
     text-align: right;
     font-size: 30px;
@@ -5,10 +9,10 @@ nav {
     color: white;
 }
 
-body {
-    background-image: url("https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTU5fHxhYnN0cmFjdCUyMGNvbG9yc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); 
-    background-size: 100% 50%;
-    background-repeat:no-repeat;
+header {
+    background-image: url("https://images.unsplash.com/photo-1542708993627-b6e5bbae43c4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTV8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60"); 
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .home-class,
@@ -16,10 +20,25 @@ body {
 .project-class,
 .experience-class {
     
-    line-height: 200px;
+    line-height: 300px;
     font-size: 25px;
     text-align: center;
     
+}
+
+.home-content,
+.contact-content,
+.project-content,
+.experience-content {
+
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(112, 161, 235);
 }
 
 a {
@@ -31,10 +50,10 @@ img {
     height: 210px;
     width: 210px;
     border-radius: 50%;
+    
 }
 
 footer{
-    position:relative;
-    bottom:0;
     text-align: center;
 }
+
