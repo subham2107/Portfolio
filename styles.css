@@ -41,6 +41,7 @@ header {
     line-height: 0px;
     font-size: 50px;
     
+    
 }
 
 .home-content,
@@ -84,7 +85,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-style: double;
 }
 
 img {
