@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+
 .topnav {
     overflow: hidden;
     margin-left: 5px;
@@ -20,8 +22,8 @@ body {
   }
 
   .topnav a:hover {
-    background-color: #ddd;
-    color:rgb(77, 80, 83);
+    /* background-color: #ddd; */
+    color:#24282b;;
   }
   
   .topnav a.active {
@@ -99,20 +101,25 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     column-gap: 90px;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
 .home-content,
 .contact-content,
-.project-content,
 .experience-content {
 
     font-size: 20px;
-    
     margin: auto;
-    color:rgb(77, 80, 83);
     max-width: 800px;
+    color:rgb(77, 80, 83);
+}
+
+.project-content {
+    font-size: 20px;
+    margin: auto;
+    max-width: calc(100vw - 200px);
+    color:rgb(77, 80, 83);
 }
 
 .contact-content {
@@ -150,6 +157,9 @@ a {
 .non-footer {
     min-height: calc(100vh - 12px);
   }
+
+
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 50px;
@@ -181,7 +191,13 @@ a {
         font-size: 15px;
     }
 
-    .project-info  h2,p,a,li{
+    .project-content {
+        
+        max-width: calc(100vw - 90px);
+        
+    }
+
+    .project-info  p,a,li{
         
         font-size: 15px;
     }
