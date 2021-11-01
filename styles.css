@@ -111,7 +111,7 @@ header {
 
     font-size: 20px;
     margin: auto;
-    max-width: 800px;
+    max-width: 700px;
     color:rgb(77, 80, 83);
 }
 
@@ -164,6 +164,14 @@ a {
     h1 {
         font-size: 50px;
 
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    .experience-content {
+        max-width: 400px;
     }
 
     .home-class p{
